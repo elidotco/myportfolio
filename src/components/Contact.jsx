@@ -13,10 +13,13 @@ const Contact = () => {
             to discussing new projects and opportunities.
           </p>
 
-          <a href="mailto:eddiefest@outlook.com" className="  btn">
+          <a href="mailto:eddiefest@outlook.com" className="btne">
             say hello
           </a>
         </div>
+      </div>
+      <div className="foot-note">
+        <p>Designed by Ebenezer</p>
       </div>
     </footer>
   );

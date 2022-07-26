@@ -8,7 +8,7 @@
   font-size: 30px;
   font-weight: bold;
   color: #a8b2d1;
-  border: 2px solid #a8b2d1;
+
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -21,7 +21,7 @@
 }
 
 .works {
-  padding-left: 1rem;
+  padding-left: 7rem;
 }
 
 .projects-titles {
@@ -44,7 +44,6 @@
   gap: 20px;
   padding-right: 5rem;
 
-  border: 2px solid green;
   flex-wrap: wrap;
 }
 
@@ -53,7 +52,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border: 2px solid green;
+
   margin: 10px;
   padding: 10px 30px;
   cursor: pointer;
@@ -61,7 +60,7 @@
 
   padding-top: 2rem;
   border-radius: 10px;
-  width: 20%;
+  width: 30%;
 }
 
 .image-container {
@@ -106,8 +105,24 @@
   transition: 0.3s;
   text-decoration: none;
 }
+a.btne {
+  width: 121px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #64ffda;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: rgba(44, 42, 52, 0.8);
+  text-transform: capitalize;
+  background: #64ffda;
+  font-size: 20px;
+  transition: 0.3s;
+  padding: 0.2rem 1rem;
+}
 
-a.btn:hover {
+a.btne:hover {
   background: transparent;
   color: #64ffda;
   transition: 0.4s;
@@ -123,7 +138,6 @@ a.btn:hover {
   align-items: center;
   flex-direction: row;
   gap: 20px;
-  border: 2px solid green;
 
   padding-left: 5rem;
   padding-bottom: 3rem;
@@ -142,26 +156,6 @@ a.btn:hover {
 
 .c-title {
   font-size: 2rem;
-}
-
-.contact-item a.btn {
-  width: 121px;
-  height: 34px;
-  border-radius: 10px;
-  padding: 0.5rem 2rem;
-  font-size: 18px;
-  align-items: center;
-  color: rgba(44, 42, 52, 0.8);
-  font-family: 'Poppins';
-  border: 1px solid #64ffda;
-  background: #64ffda;
-
-  cursor: pointer;
-  transition: 0.3s;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 @media (max-width: 768px) {
@@ -183,7 +177,6 @@ a.btn:hover {
 
   .works {
     padding-left: 3rem;
-    border: 1px solid red;
   }
 
   .projects-item {
@@ -199,4 +192,14 @@ a.btn:hover {
 
 .projects-titles {
   color: white;
+}
+
+.foot-note {
+  font-size: 20px;
+  color: white;
+  background: #a8b2d1;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }

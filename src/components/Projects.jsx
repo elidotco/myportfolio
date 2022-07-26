@@ -9,6 +9,7 @@ const Projects = () => {
       year: 'Jnuary 2022- may 2022',
       tag: 'Web Development',
       imageUrl: portfolio,
+      liveLink: 'https://lacglobal.com',
     },
     {
       id: 2,
@@ -16,6 +17,7 @@ const Projects = () => {
       year: 'febuary 2020- june 2021',
       tag: 'Web Development',
       imageUrl: portfolio,
+      liveLink: 'https://bttacom.com',
     },
     {
       id: 3,
@@ -23,6 +25,7 @@ const Projects = () => {
       year: 'Jnuary 2022- may 2022',
       tag: 'Web Development',
       imageUrl: portfolio,
+      liveLink: 'https://lacglobal.com',
     },
     {
       id: 4,
@@ -30,6 +33,7 @@ const Projects = () => {
       year: 'febuary 2020- june 2021',
       tag: 'Web Design',
       imageUrl: portfolio,
+      liveLink: 'https://bttacom.com',
     },
   ]);
   const [works, setWork] = useState([
@@ -134,7 +138,7 @@ const Projects = () => {
   };
 
   return (
-    <div className="works">
+    <div className="works" id="projects">
       <div className="about-title">
         <h2>Projects</h2>
 

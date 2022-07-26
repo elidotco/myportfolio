@@ -23,12 +23,12 @@ const Navbar = () => {
             <span></span>
           </li>
           <li className="list-item">
-            <a href="contact">
+            <a href="#contact">
               <span></span>Contact<span></span>
             </a>
           </li>
           <li className="list-item btn">
-            <button>Resume</button>
+            <a className="btn">Resume</a>
           </li>
         </ul>
         <span className="nav-icon">
